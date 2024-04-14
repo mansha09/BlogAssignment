@@ -9,12 +9,7 @@
       }
     
     
-              /* Back button */
-
-             document.getElementById("backBtn").addEventListener("click", function() {
-         // Redirect to Blog.html
-         window.location.href = "Blog.html";
-         });
+      
         /* Jason file */           
          fetch('data.json')
           .then(response => response.json())
