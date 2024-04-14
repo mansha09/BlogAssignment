@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://th.bing.com/th/id/OIP.eIEz73xZoLmYwqTF92FciwHaEw?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /*  semi-transparent black background color  */
+    color: #e4dada;
+    padding: 20px 0;
+    text-align: center; /* center - align */
+  }
+  
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+
+nav ul li a {
+  color: rgb(0, 255, 200); 
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red; 
+}
+
+  
+  main {
+    text-align: center; /* Center align t */
+  }
+  
+  .home-section {
+    margin-top: 50px; /*  margin from the top */
+    padding: 20px; /* padding to the section */
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+
+
+  
