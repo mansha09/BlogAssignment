@@ -11,13 +11,10 @@
     
               /* Back button */
 
-              $(document).ready(function() {
-                // Handle click event for the BACK button
-                $('#backBtn').click(function() {
-                  // Navigate to the Blog page
-                  window.location.href = 'Blog.html';
-                });
-              });
+             document.getElementById("backBtn").addEventListener("click", function() {
+         // Redirect to Blog.html
+         window.location.href = "Blog.html";
+         });
         /* Jason file */           
          fetch('data.json')
           .then(response => response.json())
